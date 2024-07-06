@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/prompt-engineering-cn/",
   title: "Prompt Engineering Chinese Translation",
   description:
     "Tips and tricks for working with Large Language Models like OpenAI's GPT-4.",
@@ -42,7 +43,6 @@ export default defineConfig({
           },
         ],
       },
-      
     },
     socialLinks: [
       {
