@@ -3,22 +3,21 @@
 layout: home
 
 hero:
-  name: "Prompt Engineering Chinese Translation"
-  # text: "Tips and tricks for working with Large Language Models like OpenAI's GPT-4."
-  tagline: "Tips and tricks for working with Large Language Models like OpenAI's GPT-4."
+  name: "提示词工程指南"
+  tagline: "使用 OpenAI 的 GPT-4 等大型语言模型的提示和技巧。"
   actions:
     - theme: brand
-      text: Prompt Engineering
+      text: 指南
       link: /guide/what-is-a-large-language-model-llm
 
 features:
-  - title: What is a Large Language Model (LLM)?
-    details: A large language model is a prediction engine that takes a sequence of words and tries to predict the most likely sequence to come after that sequence[^1]. It does this by assigning a probability to likely next sequences and then samples from those to choose one[^2]. The process repeats until some stopping criteria is met.
-  - title: What is a prompt?
-    details: A prompt, sometimes referred to as context, is the text provided to a model before it begins generating output. It guides the model to explore a particular area of what it has learned so that the output is relevant to your goals. As an analogy, if you think of the language model as a source code interpreter, then a prompt is the source code to be interpreted.
-  - title: Why do we need prompt engineering?
-    details: Up above, we used an analogy of prompts as the “source code” that a language model “interprets”. **Prompt engineering is the art of writing prompts to get the language model to do what we want it to do** – just like software engineering is the art of writing source code to get computers to do what we want them to do.
-  - title: Strategies
-    details: This section contains examples and strategies for specific needs or problems. For successful prompt engineering, you will need to combine some subset of all of the strategies enumerated in this document. Don’t be afraid to mix and match things – or invent your own approaches.
+  - title: 什么是大型语言模型（LLM）？
+    details: 大型语言模型是一个预测引擎，它采用一个单词序列，并试图预测该序列之后最有可能出现的序列。它通过将概率分配给可能的下一个序列，然后从中采样来选择一个序列来实现这一点。该过程重复进行，直到满足某些停止标准。
+  - title: 什么是提示词？
+    details: 提示词，有时被称为上下文，是在模型开始生成输出之前提供给它的文本。它指导模型探索所学知识的特定领域，以便输出与您的目标相关。作为类比，如果您将语言模型视为源代码解释器，那么提示词就是要解释的源代码。
+  - title: 为什么我们需要提示词工程？
+    details: 提示词工程是编写提示词的艺术，让语言模型做我们希望它做的事情——就像软件工程是编写源代码让计算机做我们希望它们做的事情的艺术一样。
+  - title: 策略
+    details: 针对特定需求或问题的示例和策略。为了获得成功的提示词工程，您需要结合本文档中列举的所有策略的一些子集。不要害怕混合搭配——或者发明自己的方法。
 ---
 
